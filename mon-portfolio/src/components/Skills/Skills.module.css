@@ -1,0 +1,109 @@
+/* src/components/Skills/Skills.module.css */
+
+.skills {
+  padding: 80px 20px;
+  background: linear-gradient(135deg, var(--bg-primary) 0%, var(--bg-secondary) 100%);
+  color: var(--text-primary);
+  opacity: 0;
+  transform: translateY(50px);
+  transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+}
+
+.skills.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.title {
+  font-size: 2.5rem;
+  margin-bottom: 50px;
+  color: var(--accent);
+  font-weight: 700;
+}
+
+.categories {
+  display: flex;
+  justify-content: space-around;
+  gap: 30px;
+}
+
+.category {
+  flex: 1;
+  background: rgba(var(--bg-secondary), 0.85);
+  padding: 30px;
+  border-radius: 16px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  border: 2px solid transparent; /* bordure transparente par défaut */
+  transition: all 0.4s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.category:hover {
+  transform: scale(1.05); /* grandit légèrement */
+  border: 2px solid #4db5ff; /* bordure bleu ciel clair au hover */
+  box-shadow: 0 12px 35px rgba(77, 181, 255, 0.3); /* ombre bleue */
+}
+
+.category h3 {
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: #ff99cc; /* rose clair pour le titre */
+  position: relative;
+  display: inline-block;
+  padding-bottom: 8px;
+}
+
+.category h3::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 3px;
+  background: #ff99cc; /* barre bleu ciel */
+  transition: width 0.4s ease;
+  border-radius: 2px;
+}
+
+.category:hover h3::after {
+  width: 100%; /* la barre apparaît en dessous du titre au hover */
+}
+
+.category ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.category li {
+  font-size: 1.1rem;
+  margin-bottom: 12px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.category li i {
+  color: #ffe066;
+  font-size: 1.3rem;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .categories {
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .category {
+    padding: 25px;
+  }
+}
