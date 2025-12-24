@@ -4,7 +4,9 @@ import lab3Img from '../assets/Node JS.jpg';
 import lab4Img from '../assets/jest.png';  
 import lab5Img from '../assets/react.jpg';  
 import lab6Img from '../assets/vite-react.jpg'; 
-import lab7Img from '../assets/Kanban-board.jpg';      
+import lab7Img from '../assets/Kanban-board.jpg';    
+import master2 from '../assets/master2.jpg'; 
+import PMS from '../assets/PMS.jpg';   
 
 const projectsData = [
   {
@@ -72,12 +74,21 @@ const projectsData = [
   },
   {
     id: 8,
-    title: "Lab 8: Movie Search App",
-    description: "Search and browse movies using an external API with detailed information and ratings.",
-    techStack: ["React", "API", "Axios"],
-    githubLink: "https://github.com/ton-username/lab8-movies",
+    title: "PFE Project Management System",
+    description: "Developed a web platform for Master's students to manage final year projects (PFE). Teachers post project proposals; students select a project, choose a supervisor and partner; selections are compiled into lists sent to teachers; admins oversee all operations. Includes dedicated pages for admin, teacher, and student roles to streamline assignment and tracking.",
+    techStack: ["Html 5", "Css 3", "JavaScript", "PhP", "MySQL", "VS Code"],
+    githubLink: "https://github.com/Ines-ol/master-2",
     liveLink: "",
-    image: "🎬"
+    image: master2
+  },
+ {
+    id: 9,
+    title: "Multi-Platform Property Management System (PMS) for Algerian Hospitality",
+    description: "As part of my bachelor's thesis, collaborated in a team to design and develop a multi-platform PMS tailored for Algerian hotels and rentals. Features include online reservations, client management, payment tracking, room availability search, and role-based dashboards (admin, employee, manager, client). Adapted to local regulations and infrastructure, with secure data handling and intuitive UI for efficient operations.",
+    techStack: ["React JS", "Laravel", "Html 5", "Css 3", "JavaScript", "MySQL", "VS Code"],
+    githubLink: "https://github.com/Ines-ol/pms1",
+    liveLink: "",
+    image: PMS
   }
 ]
 
