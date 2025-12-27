@@ -6,7 +6,7 @@ import lab5Img from '../assets/react.jpg';
 import lab6Img from '../assets/vite-react.jpg'; 
 import lab7Img from '../assets/Kanban-board.jpg';    
 import master2 from '../assets/master2.jpg'; 
-import PMS from '../assets/PMS.jpg';   
+import pms from '../assets/pms.jpg';   
 
 const projectsData = [
   {
@@ -86,9 +86,9 @@ const projectsData = [
     title: "Multi-Platform Property Management System (PMS) for Algerian Hospitality",
     description: "As part of my bachelor's thesis, collaborated in a team to design and develop a multi-platform PMS tailored for Algerian hotels and rentals. Features include online reservations, client management, payment tracking, room availability search, and role-based dashboards (admin, employee, manager, client). Adapted to local regulations and infrastructure, with secure data handling and intuitive UI for efficient operations.",
     techStack: ["React JS", "Laravel", "Html 5", "Css 3", "JavaScript", "MySQL", "VS Code"],
-    githubLink: "https://github.com/Ines-ol/pms1",
+    githubLink: "https://github.com/Ines-ol/pms1-master",
     liveLink: "",
-    image: PMS
+    image: pms
   }
 ]
 
