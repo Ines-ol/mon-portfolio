@@ -10,7 +10,7 @@ function ProjectCard({ title, description, techStack, githubLink, liveLink, imag
           src={image} 
           alt={title} 
           className={styles.projectImage} 
-          loading="lazy" // pour performance
+          loading="lazy"
         />
       </div>
 

@@ -41,7 +41,6 @@ const Projects = () => {
             description={project.description}
             techStack={project.techStack}
             githubLink={project.githubLink}
-            liveLink={project.liveLink}
             image={project.image}
             />
           ))}
