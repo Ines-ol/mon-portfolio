@@ -93,8 +93,8 @@ function Hero() {
             <a href="https://www.linkedin.com/in/ouldji-ines-yasmine-05210b252/" target="_blank" rel="noopener noreferrer">
               <i className="fab fa-linkedin"></i>
             </a>
-            <a href="https://twitter.com/votre-profil" target="_blank" rel="noopener noreferrer">
-              <i className="fab fa-twitter"></i>
+            <a href="https://www.facebook.com/ines.ol.2025" target="_blank" rel="noopener noreferrer">
+              <i className="fab fa-facebook"></i>
             </a>
             <a href="mailto:ouldjiinesyasmine@gmail.com">
               <i className="fas fa-envelope"></i>

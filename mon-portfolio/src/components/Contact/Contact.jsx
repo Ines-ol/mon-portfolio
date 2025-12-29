@@ -80,6 +80,11 @@ const Contact = () => {
                   <i className="fab fa-github"></i> GitHub
                 </a>
               </li>
+              <li>
+                <a href="https://www.facebook.com/ines.ol.2025" target="_blank" rel="noopener noreferrer" className={styles.socialItem}>
+                  <i className="fab fa-facebook"></i> Facebook
+                </a>
+              </li>
             </ul>
           </div>
 
