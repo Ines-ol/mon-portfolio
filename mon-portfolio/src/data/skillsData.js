@@ -1,11 +1,11 @@
-// src/data/skillsData.js
 const skillsData = {
   languages: [
     "HTML5", 
     "CSS3", 
     "JavaScript", 
     "PHP", 
-    "Dart"
+    "Dart",
+    "python"
   ],
   frameworks: [
     "React", 
@@ -14,7 +14,8 @@ const skillsData = {
   ],
   tools: [
     "Vite", 
-    "Git & GitHub", 
+    "Git & GitHub",
+    "Postman", 
     "NPM", 
     "WAMP / MySQL", 
     "VS Code", 

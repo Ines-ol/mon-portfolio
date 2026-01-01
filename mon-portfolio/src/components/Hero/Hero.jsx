@@ -16,7 +16,6 @@ function Hero() {
     "UI Designer"
   ];
 
-  // Animation du nom (typing effect)
   useEffect(() => {
     if (nameIndex < fullName.length) {
       const timeout = setTimeout(() => {
@@ -26,7 +25,6 @@ function Hero() {
     }
   }, [nameIndex]);
 
-  // Animation des rôles (typing + deleting effect)
   useEffect(() => {
     const currentText = roles[currentRole];
     
@@ -50,7 +48,6 @@ function Hero() {
     <section className={styles.hero} id="home">
       <div className={styles.container}>
         
-        {/* Section Gauche - Image avec effet lumineux */}
         <div className={styles.imageSection}>
           <div className={styles.glowEffect}></div>
           <div className={styles.imageWrapper}>
@@ -62,13 +59,12 @@ function Hero() {
           </div>
         </div>
 
-        {/* Section Droite - Texte animé */}
+    
         <div className={styles.contentSection}>
           <div className={styles.greeting}>Hello, I'm</div>
           
           <h1 className={styles.name}>
             {fullName.substring(0, nameIndex)}
-            <span className={styles.cursor}>|</span>
           </h1>
           
           <div className={styles.roleContainer}>
@@ -85,7 +81,6 @@ function Hero() {
            Always eager to learn and create solutions that make a difference!
           </p>
 
-          {/* Réseaux sociaux */}
           <div className={styles.socialLinks}>
             <a href="https://github.com/Ines-ol" target="_blank" rel="noopener noreferrer">
               <i className="fab fa-github"></i>
@@ -101,7 +96,6 @@ function Hero() {
             </a>
           </div>
 
-          {/* Bouton CTA */}
           <button className={styles.ctaButton} onClick={() => {
             document.getElementById('projects').scrollIntoView({ behavior: 'smooth' });
           }}>

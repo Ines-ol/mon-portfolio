@@ -1,5 +1,4 @@
-// src/components/Contact/Contact.jsx
-import React, { useState, useEffect, useRef } from 'react';
+import  { useState, useEffect, useRef } from 'react';
 import styles from './Contact.module.css';
 
 const Contact = () => {
@@ -57,7 +56,6 @@ const Contact = () => {
         <h2 className={styles.title}>Get In Touch</h2>
 
         <div className={styles.content}>
-          {/* Infos de contact */}
           <div className={styles.info}>
             <h3 className={styles.infoTitle}>Connect With Me</h3>
             <p className={styles.infoText}>
@@ -66,7 +64,7 @@ const Contact = () => {
 
             <ul className={styles.socialLinks}>
               <li>
-                <a href="mailto:ines.yasmine.ouldji@gmail.com" className={styles.socialItem}>
+                <a href="mailto:ouldjiinesyasmine@gmail.com" className={styles.socialItem}>
                   <i className="fas fa-envelope"></i> Email
                 </a>
               </li>

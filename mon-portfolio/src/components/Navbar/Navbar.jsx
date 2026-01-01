@@ -1,5 +1,4 @@
-// src/components/Navbar/Navbar.jsx
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import styles from './Navbar.module.css';
 import { FaMoon, FaSun } from 'react-icons/fa';
 
@@ -35,7 +34,7 @@ function Navbar() {
           <button onClick={toggleTheme} className={styles.themeButton}>
             {theme === 'dark' ? <FaMoon /> : <FaSun />}
           </button>
-          <a href="/cv.pdf" download className={styles.cvButton}>Download CV</a>
+          <a href="cv.pdf" download className={styles.cvButton}>Download CV</a>
         </div>
       </div>
     </nav>

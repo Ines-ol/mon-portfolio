@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from 'react';
+import  { useEffect, useRef } from 'react';
 import styles from './Skills.module.css';
 import skillsData from '../../data/skillsData';
 

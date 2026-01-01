@@ -1,5 +1,3 @@
-/* src/components/Navbar/Navbar.module.css */
-
 .navbar {
   position: fixed;
   top: 0;
@@ -83,7 +81,7 @@
 
 .cvButton {
   padding: 10px 20px;
-  background: #ff69b4; /* Rose comme dans la photo */
+  background: #ff69b4; 
   color: white;
   border-radius: 5px;
   text-decoration: none;
@@ -92,10 +90,10 @@
 }
 
 .cvButton:hover {
-  background: #ff1493; /* Rose plus foncé au hover */
+  background: #ff1493; 
 }
 
-/* Responsive */
+
 @media (max-width: 768px) {
   .navLinks {
     gap: 20px;
@@ -106,3 +104,4 @@
     justify-content: center;
   }
 }
+

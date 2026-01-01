@@ -2,7 +2,7 @@ import React from 'react';
 import styles from './ProjectCard.module.css';
 
 
-function ProjectCard({ title, description, techStack, githubLink, liveLink, image }) {
+function ProjectCard({ title, description, techStack, githubLink, image }) {
   return (
     <div className={styles.card}>
       <div className={styles.imageContainer}>
@@ -35,17 +35,6 @@ function ProjectCard({ title, description, techStack, githubLink, liveLink, imag
           >
             <span className={styles.linkIcon}>GitHub</span>
           </a>
-
-          {liveLink && (
-            <a
-              href={liveLink}
-              target="_blank"
-              rel="noopener noreferrer"
-              className={styles.liveLink}
-            >
-              <span className={styles.linkIcon}>Live Demo</span>
-            </a>
-          )}
         </div>
       </div>
     </div>
