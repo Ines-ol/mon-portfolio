@@ -10,7 +10,8 @@ const skillsData = {
   frameworks: [
     "React", 
     "Laravel", 
-    "Flutter"
+    "Flutter",
+    "Node.js"
   ],
   tools: [
     "Vite", 
@@ -19,6 +20,7 @@ const skillsData = {
     "NPM", 
     "WAMP / MySQL", 
     "VS Code", 
+    "Chrome DevTools",
     "Jest"
   ]
 };

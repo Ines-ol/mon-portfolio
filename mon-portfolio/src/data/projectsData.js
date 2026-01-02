@@ -30,7 +30,7 @@ const projectsData = [
     id: 3,
     title: "Lab 3: Node.js & NPM Fundamentals ",
     description: "Installed Node.js and NPM, ran JS code in the terminal, worked with core modules (fs), user modules, and NPM packages (e.g., cat-me). Built simple console scripts and managed dependencies via package.json.",
-    techStack: ["Node.js", "NPM"],
+    techStack: ["Node.js", "NPM", "Javascript"],
     githubLink: "https://github.com/Ines-ol/caw-labs/tree/main/Lab3",
     image: lab3Img
   },
@@ -38,7 +38,7 @@ const projectsData = [
     id: 4,
     title: "Lab 4:Unit Testing in JavaScript – Introduction to Jest",
     description: "Installed Jest, configured tests, wrote and ran unit tests for Lab 3 functions and new array utilities (first/last elements, chunk, join strings). Learned testing best practices and assertions.",
-    techStack: ["JavaScript", "Jest", "NPM"],
+    techStack: ["JavaScript", "Jest", "NPM","Node.js"],
     githubLink: "https://github.com/Ines-ol/caw-labs/tree/main/Lab4_Jest",
     image: lab4Img
   },
@@ -46,7 +46,7 @@ const projectsData = [
     id: 5,
     title: "Lab 5: React Components Basics",
     description: "Installed Jest, configured tests, wrote and ran unit tests for Lab 3 functions and new array utilities (first/last elements, chunk, join strings). Learned testing best practices and assertions.",
-    techStack: ["React", "JavaScript"],
+    techStack: ["React", "JavaScript","JSX","Css"],
     githubLink: "https://github.com/Ines-ol/caw-labs/tree/main/lab5-react",
     image: lab5Img
   },
@@ -54,7 +54,7 @@ const projectsData = [
     id: 6,
     title: "Lab 6: Vite – React Development Setup",
     description: "Set up React project with Vite for fast tooling: created skeleton, installed dependencies, launched dev server, cleaned default files. Explored module import/export (default/named), conventions for components/CSS/images. Built reusable ProfileCard component with props and inline styles, integrated into App.",
-    techStack: ["React", "Vite", "NPM"],
+    techStack: ["React", "Vite", "NPM","Css"],
     githubLink: "https://github.com/Ines-ol/caw-labs/tree/main/lab6-MyFirstVite",
     image: lab6Img
   },
@@ -62,7 +62,7 @@ const projectsData = [
     id: 7,
     title: "Lab 7: Kanban Board",
     description: ": Developed task management app with React: App displaying columns , TaskForm for adding tasks, Column rendering TaskCards, state for moving tasks. Added styling/animations for UX, unit tests with Jest.",
-    techStack: ["React", "Vite", "CSS","Jest"],
+    techStack: ["React", "Vite", "CSS","Jest","Github & Git"],
     githubLink: "https://github.com/Ines-ol/caw-labs/tree/main/lab7",
     image: lab7Img
   },
