@@ -6,6 +6,7 @@ import Navbar from './components/Navbar/Navbar';
 import '@fortawesome/fontawesome-free/css/all.min.css';
 import './index.css';
 
+
 function App() {
   return (
     <div className="app">

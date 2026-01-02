@@ -1,13 +1,10 @@
-/* src/components/Contact/Contact.module.css */
-
-/* Mode sombre (dark) par défaut */
 .contact {
   padding: 80px 20px 100px;
   background: linear-gradient(135deg, var(--bg-primary) 0%, var(--bg-secondary) 100%);
   color: var(--text-primary);
 }
 
-/* Mode clair (light) - appliqué automatiquement quand .light est sur <html> */
+
 .light .contact {
   background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%);
   color: var(--text-primary);
@@ -58,12 +55,12 @@
 
 .info:hover,
 .formWrapper:hover {
-  transform: scale(1.03); /* agrandit légèrement */
-  border: 2px solid #4db5ff; /* bordure bleu ciel qui s'allume */
-  box-shadow: 0 20px 50px rgba(77, 181, 255, 0.3); /* ombre bleu ciel */
+  transform: scale(1.03); 
+  border: 2px solid #4db5ff; 
+  box-shadow: 0 20px 50px rgba(77, 181, 255, 0.3); 
 }
 
-/* Light mode pour info et formWrapper */
+
 .light .info,
 .light .formWrapper {
   background: rgba(255, 255, 255, 0.9);

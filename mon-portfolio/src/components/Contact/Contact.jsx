@@ -100,6 +100,7 @@ const Contact = () => {
     {formStatus === 'error' && <p className={styles.error}>Something went wrong. Try again.</p>}
   </form>
         </div>
+
         </div>
       </div>
     </section>
