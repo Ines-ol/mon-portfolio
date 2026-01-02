@@ -21,7 +21,7 @@ function Navbar() {
   return (
     <nav className={styles.navbar}>
       <div className={styles.container}>
-        <a href="#home" onClick={(e) => handleClick(e, 'home')} className={styles.logo}>Portfolio</a>
+        <a href="#home" onClick={(e) => handleClick(e, 'home')} className={styles.logo}>My Portfolio</a>
         
         <ul className={styles.navLinks}>
           <li><a href="#home" onClick={(e) => handleClick(e, 'home')}>Home</a></li>
