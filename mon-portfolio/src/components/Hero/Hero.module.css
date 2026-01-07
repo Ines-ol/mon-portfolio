@@ -175,7 +175,6 @@
   max-width: 500px;
 }
 
-/* ========== RÉSEAUX SOCIAUX ========== */
 .socialLinks {
   display: flex;
   gap: 20px;
@@ -203,7 +202,6 @@
   box-shadow: 0 10px 20px rgba(var(--accent-rgb), 0.2);
 }
 
-/* ========== BOUTON CTA ========== */
 .ctaButton {
   margin-top: 30px;
   padding: 15px 40px;

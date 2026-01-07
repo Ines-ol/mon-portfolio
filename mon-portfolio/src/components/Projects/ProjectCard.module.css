@@ -88,7 +88,7 @@
 .links {
   display: flex;
   gap: 16px;
-  margin-top: auto; /* Pousse les liens en bas */
+  margin-top: auto; 
 }
 
 .githubLink,
@@ -128,10 +128,10 @@
   box-shadow: 0 8px 20px rgba(255, 215, 0, 0.2); 
 }
 .liveLink:hover {
-  background: #3a9eff; /* Bleu ciel plus foncé */
+  background: #3a9eff; 
 }
 
-/* Responsive */
+
 @media (max-width: 768px) {
   .card {
     margin: 0 auto;

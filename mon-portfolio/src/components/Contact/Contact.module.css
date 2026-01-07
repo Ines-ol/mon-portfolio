@@ -179,7 +179,7 @@
 .success { color: #64ffda; }
 .error { color: #ff6b6b; }
 
-/* Responsive */
+
 @media (max-width: 768px) {
   .content {
     flex-direction: column;
